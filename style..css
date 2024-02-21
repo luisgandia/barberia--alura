@@ -105,19 +105,23 @@ footer{
     margin: 0 auto;
 
   }
+ 
 
   form{
     margin: 40px 0;
   }
 
-  form label {
+  form label, form p {
     display: block;
     font-size: 22px;
     margin: 0 0 10px;
   }
-  form input{
+  .input-padron {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+  }
+  .check{
+    margin: 20px 0;
   }
