@@ -133,7 +133,7 @@ footer{
     font-weight: bold;
     border-radius: 7px;
     background-color: orange;
-    transition: 1s background;
+    transition: 1s all;
     cursor: pointer;
     color:blue;
     border: none;
@@ -142,4 +142,5 @@ footer{
   .enviar:hover{
     background-color: blue;
     color: darkgoldenrod;
+    transform: scale(1.7) rotate(-15deg);
   }
