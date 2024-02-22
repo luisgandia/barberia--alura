@@ -125,3 +125,21 @@ footer{
   .check{
     margin: 20px 0;
   }
+
+  .enviar{
+    width: 37.5%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: orange;
+    transition: 1s background;
+    cursor: pointer;
+    color:blue;
+    border: none;
+
+  }
+  .enviar:hover{
+    background-color: blue;
+    color: darkgoldenrod;
+  }
