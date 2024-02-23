@@ -144,3 +144,16 @@ footer{
     color: darkgoldenrod;
     transform: scale(1.7) rotate(-15deg);
   }
+  table{
+    margin: 40px;
+
+  }
+  thead{
+    background-color: #555;
+    color: #ccc;
+    font-weight: bold;
+  }
+  td,th{
+    border: solid black 2px;
+    padding: 8px 15px;
+  }
