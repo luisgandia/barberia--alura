@@ -191,6 +191,14 @@ footer{
   font-style: italic;
 
 }
+
+.mapa{
+  padding: 3em 0;
+}
+ .mapa p{
+  text-align: center;
+  margin: 0 0 2em;
+ }
 .imagenDiferenciales{
   width: 60%;
 }
