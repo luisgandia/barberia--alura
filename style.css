@@ -15,8 +15,8 @@ body{
     width: 940px;
     position: relative;
     margin: 0 auto;
-
 }
+
 nav{
     position: absolute;
     top: 110px;
@@ -25,9 +25,7 @@ nav{
 
 nav li{
     display: inline-block; 
-    margin-left: 15px;
-
-  
+    margin-left: 15px; 
    
 }
 
@@ -42,8 +40,8 @@ nav  a{
 nav a:hover{
     color: #c78c19;
     text-decoration: underline;
-
 }
+
 .productos{
     width: 940px;
     margin: 0 auto;
@@ -65,54 +63,43 @@ nav a:hover{
 }
 
 .productos li:hover{
-    border-color:chocolate;
-    
+    border-color:chocolate;    
 }
 
 .productos li:active{
     border-color: aqua;
 }
+
 .productos h2{
     font-size: 30px;
     font-weight: bold;
-
 }
 
 .productos li:hover h2{
     font-size: 33px;
-
 }
 
 .producto-descripcion{
     font-size: 18px;
-
 }
+
 .producto-precio{
     font-size: 22px;
     font-weight: bold;
     margin-top: 12px;
-
 }
+
 footer{
    text-align: center;
-    background:url(imagenes/bg.jpg);
-  
-    padding: 40px;
-   
-
+    background:url(imagenes/bg.jpg);  
+    padding: 40px; 
 }
+
 .copyright{
     color: #c78c19;
     font-size: 12px; 
     margin: 20px; 
-  }
-
-  main{
-    width: 80%;
-    margin: 0 auto;
-
-  }
- 
+  } 
 
   form{
     margin: 40px 0;
@@ -164,10 +151,22 @@ footer{
     border: solid black 2px;
     padding: 8px 15px;
   }
+
+
 /* css para el index*/
   .banner{
     width: 100%;
 }
+main{
+  font-weight: lighter;
+}
+.principal{
+  padding: 3em 0;
+  background-color: #fefefe;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .titulo-principal{
   text-align: center;
   font-size: 2em;
@@ -194,15 +193,28 @@ footer{
 
 .mapa{
   padding: 3em 0;
+  background:linear-gradient(#fefefe,#888);
 }
+
  .mapa p{
   text-align: center;
   margin: 0 0 2em;
+ }
+ .mapa-contenido{
+  width: 80%;
+  margin: 0 auto;
+ }
+
+ .diferenciales{
+  background: #888;
+  padding: 3em 0;
+
  }
 
  .contenido-diferenciales{
   width: 640px;
   margin: 0 auto;
+ 
  }
 
  .lista-diferenciales{
@@ -213,7 +225,12 @@ footer{
 
  .items{
   line-height: 1.5;
+  
+ }
 
+ .items:first-child{
+  font-weight: bold;
+  
  }
 
 .imagen-diferenciales{
